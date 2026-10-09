@@ -1,11 +1,11 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { CartProvider } from "./utils/CartContext";
-import MainLayout from "./layouts/mainlayout";
+import MainLayout from "./layouts/MainLayout";
 import AdminLayout from "./layouts/AdminLayout";
-import Dashboard from "./pages/frontpages/dashboard";
-import Cart from "./pages/frontpages/cart";
-import Checkout from "./pages/frontpages/checkout";
-import ProductDetail from "./pages/frontpages/productdetail";
+import Dashboard from "./pages/frontpages/Dashboard";
+import Cart from "./pages/frontpages/Cart";
+import Checkout from "./pages/frontpages/Checkout";
+import ProductDetail from "./pages/frontpages/ProductDetail";
 import CustomRequest from "./pages/frontpages/CustomRequest";
 
 import AdminDashboard from "./pages/adminpages/AdminDashboard";
